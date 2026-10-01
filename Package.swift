@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMinor(from: "13.9.0")),
         // Mark: Dependencies End
     ],
@@ -40,13 +40,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATGoogleAdsAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATGoogleAdsAdapter.zip",
-            checksum: "43a39dcb25bd7f3f63957915054e5104077729d41c531ac496db552cec05eb1b"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATGoogleAdsAdapter.zip",
+            checksum: "db729e8b50f1d53d76afc2cd79cb7665457b668e3f7d66b2caec28a649e34ad6"
         ),
         .binaryTarget(
             name: "AATAdMobMediationAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATAdMobMediationAdapter.zip",
-            checksum: "5a2b0d53351767cbe2aa53c4ea13247595822aee83b7d68d85fce14cd705dcd5"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATAdMobMediationAdapter.zip",
+            checksum: "15bb75d82fc2a682cea99a3bfd42c163384a4aca7305abcfd26f437ff7c8ad03"
         ),
     ]
 )
